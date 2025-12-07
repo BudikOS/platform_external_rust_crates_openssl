@@ -57,6 +57,7 @@ rust_library {
         "//packages/modules/Virtualization/libs/libvm_payload",
         "//packages/modules/Virtualization/tests/authfs",
         "//system/authgraph/boringssl",
+        "//system/desktop/fingerprint/hal",
         "//system/keymint/boringssl",
         "//system/security/keystore2/tests",
         "//system/security/keystore2/tests/keystore-engine",
