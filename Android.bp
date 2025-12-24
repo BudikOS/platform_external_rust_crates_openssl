@@ -72,6 +72,7 @@ rust_library {
         "//tools/netsim",
         "//tools/security/remote_provisioning/hwtrust",
         "//trusty/user/desktop/app/finger_guard",
+        "//trusty/user/desktop/lib/tpm_commands",
         "//vendor:__subpackages__",
     ],
 }
