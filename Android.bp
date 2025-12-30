@@ -68,6 +68,7 @@ rust_library {
         "//system/software_defined_vehicle/core_services/service_discovery/uds_certs/tests",
         "//system/software_defined_vehicle/core_services/service_discovery/vvmtruststore",
         "//system/software_defined_vehicle/core_services/vsidl/middleware/rpc/transport/grpc",
+        "//system/software_defined_vehicle/middleware:__subpackages__",
         "//system/software_defined_vehicle/platform/init_open_dice",
         "//tools/netsim",
         "//tools/security/remote_provisioning/hwtrust",
