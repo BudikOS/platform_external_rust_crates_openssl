@@ -35,7 +35,6 @@ rust_library {
     aliases: ["openssl_sys:ffi"],
     apex_available: [
         "//apex_available:platform",
-        "com.android.compos",
         "com.android.configinfrastructure",
         "com.android.virt",
     ],

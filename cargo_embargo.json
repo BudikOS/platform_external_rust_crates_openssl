@@ -18,13 +18,14 @@
   "module_visibility": {
     "libopenssl": [
         ":__subpackages__",
-        "//external/rust/crates/tokio-openssl",
+        "//external/rust/android-crates-io/crates/tokio-openssl",
         "//packages/modules/ConfigInfrastructure/aconfigd",
         "//packages/modules/Virtualization/libs/apkverify",
         "//system/authgraph/boringssl",
         "//system/keymint/boringssl",
         "//system/security/keystore2/tests",
         "//system/security/keystore2/tests/keystore-engine",
+        "//system/software_defined_vehicle/common/third_party/hwtrust_private_key",
         "//system/software_defined_vehicle/core_services/crypto_rpc",
         "//system/software_defined_vehicle/core_services/sdv_comms/sdk",
         "//system/software_defined_vehicle/core_services/service_discovery/sdv_sd_agent",
@@ -37,6 +38,7 @@
         "//tools/netsim",
         "//tools/security/remote_provisioning/hwtrust",
         "//trusty/user/desktop/app/finger_guard",
+        "//trusty/user/desktop/lib/tpm_commands",
         "//vendor:__subpackages__"
     ]
   },
