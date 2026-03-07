@@ -46,6 +46,7 @@ rust_library {
         "//external/rust/android-crates-io/crates/tokio-openssl",
         "//packages/modules/ConfigInfrastructure/aconfigd",
         "//packages/modules/Virtualization/libs/apkverify",
+        "//packages/modules/Virtualization/libs/libclient_vm_csr",
         "//system/authgraph/boringssl",
         "//system/keymint/boringssl",
         "//system/security/keystore2/tests",
